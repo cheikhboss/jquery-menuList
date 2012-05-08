@@ -1,0 +1,111 @@
+
+ul.menuList {
+	list-style		:none;
+	padding			:0px;
+	margin			:0px;
+	position		:absolute;
+	border			:1px solid #dedede;
+	background-colorm:#fefefe;
+	color			:#000000;
+	display			:none;
+	width			:100px;
+	z-index			:2;
+}
+
+ul.menuList li.menuList-title {
+	padding			:2px 10px 2px 5px;
+	margin			:0px;
+	background-color:whitesmoke;	
+	text-align		:left;	
+}
+
+ul.menuList li.menuList-item {
+	padding			:5px 10px 5px 5px;
+	margin			:0px;
+	border-top		:1px solid #dedede;
+	position		:relative;
+	z-index			:3;
+	overflow		:hidden;
+	cursor			:pointer;
+	text-align		:left;
+
+}
+
+ul.menuList li.menuList-item:hover {
+	background-color	:#efefef;
+}
+
+ul.menuList li.menuList-item a {
+	display				:list-item;
+	color				:#000000 !important;
+}
+
+ul.menuList li.img {
+	padding-left	:27px;
+}
+
+ul.menuList li.menuList-item .item-checkbox {
+	display			:block;
+	float			:left;
+	width			:18px;
+	height			:18px;	
+	background		:transparent url('images/checkbox_36x18.png') no-repeat 0px 0px;	
+	margin-right	:5px;
+}
+
+ul.menuList li.menuList-item .item-img {
+	position		:absolute;
+	left			:5px;
+	top				:2px;
+	width			:16px;	
+}
+
+ul.menuList li.menuList-item .item-checkbox.CHECKED {
+	background-position: -18px 0px;	
+}
+
+ul.menuList li.plus {
+	display			:none;	
+}
+
+ul.menuList li.menuList-plus {
+	cursor			:pointer;	
+	text-align		:center;
+	padding			:0px;
+}
+
+ul.menuList li.menuList-plus:hover {
+	background-color:#efefef;	
+}
+
+ul.menuList .menuList-title {
+	color			:gray;
+	border			:0px !important;
+}
+
+.menuList-arrow {
+	display			:block;
+	position		:absolute;
+	width			:10px;
+	height			:10px;
+	right			:0px;
+	bottom			:0px;
+	z-index			:1;
+	cursor			:pointer;
+	background		:transparent url('images/arrow_9x9.gif') no-repeat center right;
+}
+
+ul.menuList li .item-index {
+	display			:none;
+}
+
+ul.menuList li .item-text {
+	position		:absolute !important;
+	width			:100% !important;
+	float			:none !important;
+	display			:inline !important;
+}
+
+ul.menuList li .item-text a {
+	cursor			:pointer;	
+}
